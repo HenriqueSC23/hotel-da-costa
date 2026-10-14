@@ -1,0 +1,77 @@
+.hdc-lp-footer {
+  --hdc-lp-color-background-footer: var(--hdc-lp-color-text-heading);
+  --hdc-lp-color-footer-text: var(--hdc-lp-color-text-on-media);
+  --hdc-lp-footer-space-block: clamp(20px, calc(3.125vw - 20px), 40px);
+  --hdc-lp-footer-font-size: 18px;
+  --hdc-lp-footer-logo-size: 120px;
+  --hdc-lp-footer-content-width: 247px;
+  --hdc-lp-footer-content-gap: 16px;
+  min-height: 0;
+  padding: var(--hdc-lp-footer-space-block) var(--hdc-lp-gutter-inline);
+  color: var(--hdc-lp-color-footer-text);
+  background: var(--hdc-lp-color-background-footer);
+  font-size: var(--hdc-lp-footer-font-size);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.hdc-lp-footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--hdc-lp-space-5);
+}
+.hdc-lp-footer__logo {
+  display: block;
+  flex: 0 0 var(--hdc-lp-footer-logo-size);
+  width: var(--hdc-lp-footer-logo-size);
+  height: var(--hdc-lp-footer-logo-size);
+  object-fit: contain;
+}
+.hdc-lp-footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--hdc-lp-footer-content-gap);
+  width: var(--hdc-lp-footer-content-width);
+  max-width: 100%;
+  min-width: 0;
+  text-align: right;
+}
+.hdc-lp-footer__copyright {
+  width: 100%;
+  margin: 0;
+  font: inherit;
+  text-wrap: pretty;
+}
+.hdc-lp-footer__privacy {
+  position: relative;
+  max-width: 100%;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-wrap: pretty;
+}
+.hdc-lp-footer a.hdc-lp-footer__privacy::after {
+  content: "";
+  position: absolute;
+  inset: -11px 0;
+}
+.hdc-lp-footer a:focus-visible {
+  outline: 3px solid var(--hdc-lp-color-focus);
+  outline-offset: 4px;
+}
+@media (hover: hover) {
+  .hdc-lp-footer a:hover { opacity: 0.8; }
+}
+@media (max-width: 767px) {
+  .hdc-lp-footer {
+    --hdc-lp-footer-space-block: 40px;
+    --hdc-lp-footer-font-size: 16px;
+    --hdc-lp-footer-logo-size: 100px;
+    --hdc-lp-footer-content-width: 100%;
+  }
+  .hdc-lp-footer__container { flex-direction: column; }
+  .hdc-lp-footer__content { align-items: center; text-align: center; }
+}

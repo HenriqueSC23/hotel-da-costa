@@ -1,0 +1,63 @@
+.hdc-lp-submissions-admin {
+  --hdc-lp-color-admin-surface: #fff;
+  --hdc-lp-color-admin-border: #c3c4c7;
+  --hdc-lp-color-admin-focus: #2271b1;
+  --hdc-lp-admin-space-small: 8px;
+  --hdc-lp-admin-space-field: 16px;
+  --hdc-lp-admin-space-panel: 20px;
+  max-width: 1280px;
+}
+.hdc-lp-submissions-admin h1, .hdc-lp-submissions-admin h2 { text-wrap: balance; }
+.hdc-lp-submissions-admin p, .hdc-lp-submissions-admin label,
+.hdc-lp-submissions-admin button, .hdc-lp-submissions-admin a,
+.hdc-lp-submissions-admin th, .hdc-lp-submissions-admin td,
+.hdc-lp-submissions-admin dt, .hdc-lp-submissions-admin dd,
+.hdc-lp-submissions-admin select, .hdc-lp-submissions-admin input { text-wrap: pretty; }
+.hdc-lp-submissions-admin [hidden] { display: none; }
+.hdc-lp-submissions-admin .subsubsub { float: none; display: flex; flex-wrap: wrap; gap: 4px; }
+.hdc-lp-submissions-admin__filters, .hdc-lp-submissions-admin__toolbar,
+.hdc-lp-submissions-admin__row-actions, .hdc-lp-submissions-admin__pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--hdc-lp-admin-space-small);
+  margin-block: var(--hdc-lp-admin-space-field);
+}
+.hdc-lp-submissions-admin__filters { align-items: end; }
+.hdc-lp-submissions-admin__filters label { display: grid; gap: 4px; max-width: 100%; }
+.hdc-lp-submissions-admin__filters input, .hdc-lp-submissions-admin__filters select { max-width: 100%; margin: 0; }
+.hdc-lp-submissions-admin__table th, .hdc-lp-submissions-admin__table td { vertical-align: top; }
+.hdc-lp-submissions-admin__table th:nth-child(2) { width: 48px; }
+.hdc-lp-submissions-admin__table th:nth-child(5) { width: 128px; }
+.hdc-lp-submissions-admin__table th:nth-child(8) { width: 112px; }
+.hdc-lp-submissions-admin__table td a, .hdc-lp-submissions-admin__table td:nth-child(4),
+.hdc-lp-submissions-admin__identifier { overflow-wrap: anywhere; }
+.hdc-lp-submissions-admin__row-actions { margin-block: var(--hdc-lp-admin-space-small) 0; align-items: start; }
+.hdc-lp-submissions-admin__row-actions button { text-align: left; line-height: 1.5; }
+.hdc-lp-submissions-admin__details, .hdc-lp-submissions-admin__confirmation {
+  padding: var(--hdc-lp-admin-space-panel);
+  border: 1px solid var(--hdc-lp-color-admin-border);
+  background: var(--hdc-lp-color-admin-surface);
+}
+.hdc-lp-submissions-admin__details > div { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: var(--hdc-lp-admin-space-field); padding-block: var(--hdc-lp-admin-space-small); }
+.hdc-lp-submissions-admin__details dt { font-weight: 600; }
+.hdc-lp-submissions-admin__details dd { margin: 0; overflow-wrap: anywhere; }
+.hdc-lp-submissions-admin :focus-visible { outline: 2px solid var(--hdc-lp-color-admin-focus); outline-offset: 2px; }
+@media (max-width: 1100px) {
+  .hdc-lp-submissions-admin__table { table-layout: auto; }
+  .hdc-lp-submissions-admin__table thead { display: block; }
+  .hdc-lp-submissions-admin__table thead th { display: none; }
+  .hdc-lp-submissions-admin__table thead .check-column { display: flex; align-items: center; gap: var(--hdc-lp-admin-space-small); }
+  .hdc-lp-submissions-admin__table thead .check-column::after { content: 'Selecionar esta página'; font-weight: 400; text-wrap: pretty; }
+  .hdc-lp-submissions-admin__table tbody, .hdc-lp-submissions-admin__table tr,
+  .hdc-lp-submissions-admin__table td, .hdc-lp-submissions-admin__table .check-column { display: block; width: auto; }
+  .hdc-lp-submissions-admin__table tr + tr { border-top: 1px solid var(--hdc-lp-color-admin-border); }
+  .hdc-lp-submissions-admin__table td[data-hdc-lp-label] { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: var(--hdc-lp-admin-space-small); }
+  .hdc-lp-submissions-admin__table td[data-hdc-lp-label]::before { content: attr(data-hdc-lp-label); font-weight: 600; }
+  .hdc-lp-submissions-admin__table td .hdc-lp-submissions-admin__row-actions,
+  .hdc-lp-submissions-admin__table td .hdc-lp-submissions-admin__identifier { grid-column: 2; }
+}
+@media (max-width: 600px) {
+  .hdc-lp-submissions-admin__details > div { grid-template-columns: 1fr; gap: 4px; }
+  .hdc-lp-submissions-admin__filters label { width: 100%; }
+}

@@ -1,0 +1,38 @@
+.hdc-lp-campaigns-admin {
+  --hdc-lp-color-admin-background: #fff;
+  --hdc-lp-color-admin-border: #c3c4c7;
+  --hdc-lp-color-admin-focus: #2271b1;
+  --hdc-lp-color-admin-thumbnail: #f0f0f1;
+  --hdc-lp-admin-space-label: 6px;
+  --hdc-lp-admin-space-small: 8px;
+  --hdc-lp-admin-space-field: 16px;
+  --hdc-lp-admin-space-panel: 20px;
+  --hdc-lp-admin-space-group: 24px;
+  max-width: 1000px;
+}
+.hdc-lp-campaigns-admin h1,
+.hdc-lp-campaigns-admin legend { text-wrap: balance; }
+.hdc-lp-campaigns-admin p,
+.hdc-lp-campaigns-admin label,
+.hdc-lp-campaigns-admin button { text-wrap: pretty; }
+.hdc-lp-campaigns-admin [hidden] { display: none; }
+.hdc-lp-campaigns-admin__row {
+  margin-block: var(--hdc-lp-admin-space-group);
+  padding: var(--hdc-lp-admin-space-panel);
+  border: 1px solid var(--hdc-lp-color-admin-border);
+  background: var(--hdc-lp-color-admin-background);
+}
+.hdc-lp-campaigns-admin__row legend { padding-inline: var(--hdc-lp-admin-space-small); font-weight: 600; }
+.hdc-lp-campaigns-admin__row--dragging { opacity: .6; }
+.hdc-lp-campaigns-admin__content { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: var(--hdc-lp-admin-space-group); }
+.hdc-lp-campaigns-admin__thumbnail { width: 108px; aspect-ratio: 4 / 5; background: var(--hdc-lp-color-admin-thumbnail); }
+.hdc-lp-campaigns-admin__thumbnail img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.hdc-lp-campaigns-admin__fields > label { display: block; margin-bottom: var(--hdc-lp-admin-space-field); }
+.hdc-lp-campaigns-admin__fields input[type="text"],
+.hdc-lp-campaigns-admin__fields textarea { display: block; width: 100%; margin-top: var(--hdc-lp-admin-space-label); }
+.hdc-lp-campaigns-admin__actions { display: flex; flex-wrap: wrap; gap: var(--hdc-lp-admin-space-small); margin-top: var(--hdc-lp-admin-space-panel); }
+.hdc-lp-campaigns-admin [data-hdc-lp-campaign-drag] { cursor: grab; }
+.hdc-lp-campaigns-admin button:focus-visible { outline: 2px solid var(--hdc-lp-color-admin-focus); outline-offset: 2px; }
+@media (max-width: 600px) {
+  .hdc-lp-campaigns-admin__content { grid-template-columns: minmax(0, 1fr); }
+}

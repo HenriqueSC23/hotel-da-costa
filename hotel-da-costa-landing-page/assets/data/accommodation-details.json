@@ -1,0 +1,711 @@
+{
+  "verifiedAt": "2026-09-30",
+  "rooms": [
+    {
+      "slug": "suite-premium",
+      "status": 200,
+      "title": "Suíte Premium",
+      "source": "https://hoteldacosta.com.br/acomodacao/suite-premium/",
+      "description": "A joia da casa. São aproximadamente 40 m² divididos em quarto, sala de estar e varanda com rede com vista para o mar — a escolha de quem quer viver o melhor do Hotel da Costa.",
+      "features": [
+        "40 m²",
+        "Sala com sofá-cama",
+        "Varanda com rede",
+        "Vista mar",
+        "Smart TV 43\"",
+        "Roupões + pantufas",
+        "Amenities Vinotage"
+      ],
+      "images": [
+        {
+          "file": "room-details-suite-premium-01.webp",
+          "alt": "Suíte Premium — foto 1",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-suite-premium-04.webp",
+          "alt": "Suíte Premium — foto 2",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-suite-premium-05.webp",
+          "alt": "Suíte Premium — foto 3",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-suite-premium-02.webp",
+          "alt": "Suíte Premium — foto 4",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-suite-premium-03.webp",
+          "alt": "Suíte Premium — foto 5",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-suite-premium-06.webp",
+          "alt": "Suíte Premium — foto 6",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-suite-premium-07.webp",
+          "alt": "Suíte Premium — foto 7",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-suite-premium-08.webp",
+          "alt": "Suíte Premium — foto 8",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-suite-premium-09.webp",
+          "alt": "Suíte Premium — foto 9",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-suite-premium-10.webp",
+          "alt": "Suíte Premium — foto 10",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-suite-premium-11.webp",
+          "alt": "Suíte Premium — foto 11",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-suite-premium-12.webp",
+          "alt": "Suíte Premium — foto 12",
+          "width": 960,
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "slug": "luxo-casal",
+      "status": 200,
+      "title": "Luxo Casal",
+      "source": "https://hoteldacosta.com.br/acomodacao/luxo-casal/",
+      "description": "Apartamento de aproximadamente 22 m² com varanda com vista para o mar. A cama de casal queen e a cafeteira Illy fazem dele o preferido de quem viaja a dois.",
+      "features": [
+        "22 m²",
+        "Cama queen",
+        "Cafeteira Illy",
+        "Varanda"
+      ],
+      "images": [
+        {
+          "file": "room-details-luxo-casal-01.webp",
+          "alt": "Luxo Casal — foto 1",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-02.webp",
+          "alt": "Luxo Casal — foto 2",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-03.webp",
+          "alt": "Luxo Casal — foto 3",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-04.webp",
+          "alt": "Luxo Casal — foto 4",
+          "width": 960,
+          "height": 1440
+        },
+        {
+          "file": "room-details-luxo-casal-05.webp",
+          "alt": "Luxo Casal — foto 5",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-06.webp",
+          "alt": "Luxo Casal — foto 6",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-07.webp",
+          "alt": "Luxo Casal — foto 7",
+          "width": 960,
+          "height": 1440
+        },
+        {
+          "file": "room-details-luxo-casal-08.webp",
+          "alt": "Luxo Casal — foto 8",
+          "width": 960,
+          "height": 1440
+        },
+        {
+          "file": "room-details-luxo-casal-09.webp",
+          "alt": "Luxo Casal — foto 9",
+          "width": 960,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "slug": "luxo-triplo",
+      "status": 200,
+      "title": "Luxo Triplo",
+      "source": "https://hoteldacosta.com.br/acomodacao/luxo-triplo/",
+      "description": "Aproximadamente 22 m² com varanda e vista para o mar, acomodando até três pessoas — em cama de casal com uma de solteiro ou em três camas de solteiro.",
+      "features": [
+        "22 m²",
+        "Até 3 pessoas",
+        "Cafeteira Illy",
+        "Varanda"
+      ],
+      "images": [
+        {
+          "file": "room-details-luxo-triplo-01.webp",
+          "alt": "Luxo Triplo — foto 1",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-triplo-02.webp",
+          "alt": "Luxo Triplo — foto 2",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-triplo-03.webp",
+          "alt": "Luxo Triplo — foto 3",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-triplo-04.webp",
+          "alt": "Luxo Triplo — foto 4",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-triplo-05.webp",
+          "alt": "Luxo Triplo — foto 5",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-triplo-06.webp",
+          "alt": "Luxo Triplo — foto 6",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-triplo-07.webp",
+          "alt": "Luxo Triplo — foto 7",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-triplo-08.webp",
+          "alt": "Luxo Triplo — foto 8",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-triplo-09.webp",
+          "alt": "Luxo Triplo — foto 9",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-triplo-10.webp",
+          "alt": "Luxo Triplo — foto 10",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-triplo-11.webp",
+          "alt": "Luxo Triplo — foto 11",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-triplo-12.webp",
+          "alt": "Luxo Triplo — foto 12",
+          "width": 960,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "slug": "executivo",
+      "status": 200,
+      "title": "Executivo",
+      "source": "https://hoteldacosta.com.br/acomodacao/executivo/",
+      "description": "Aproximadamente 20 m² com vista para o mar e cama king size — a escolha certa para quem viaja a trabalho sem abrir mão do conforto.",
+      "features": [
+        "20 m²",
+        "Cama king",
+        "Cafeteira"
+      ],
+      "images": [
+        {
+          "file": "room-details-executivo-01.webp",
+          "alt": "Executivo — foto 1",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-executivo-02.webp",
+          "alt": "Executivo — foto 2",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-executivo-03.webp",
+          "alt": "Executivo — foto 3",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-executivo-04.webp",
+          "alt": "Executivo — foto 4",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-09.webp",
+          "alt": "Executivo — foto 5",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-triplo-12.webp",
+          "alt": "Executivo — foto 6",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-executivo-07.webp",
+          "alt": "Executivo — foto 7",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-executivo-08.webp",
+          "alt": "Executivo — foto 8",
+          "width": 960,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "slug": "superior-casal",
+      "status": 200,
+      "title": "Superior Casal",
+      "source": "https://hoteldacosta.com.br/acomodacao/superior-casal/",
+      "description": "Apartamento de aproximadamente 20 m² com janela e vista residencial — o conforto essencial para aproveitar Aracaju a dois.",
+      "features": [
+        "20 m²",
+        "Casal",
+        "Mesa de trabalho"
+      ],
+      "images": [
+        {
+          "file": "room-details-superior-casal-01.webp",
+          "alt": "Superior Casal — foto 1",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-casal-02.webp",
+          "alt": "Superior Casal — foto 2",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-casal-03.webp",
+          "alt": "Superior Casal — foto 3",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-casal-04.webp",
+          "alt": "Superior Casal — foto 4",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-casal-05.webp",
+          "alt": "Superior Casal — foto 5",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-09.webp",
+          "alt": "Superior Casal — foto 6",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-08.webp",
+          "alt": "Superior Casal — foto 7",
+          "width": 960,
+          "height": 1440
+        },
+        {
+          "file": "room-details-superior-casal-08.webp",
+          "alt": "Superior Casal — foto 8",
+          "width": 960,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "slug": "superior-twin",
+      "status": 200,
+      "title": "Superior Twin",
+      "source": "https://hoteldacosta.com.br/acomodacao/superior-twin/",
+      "description": "Aproximadamente 25 m² com janela e vista residencial, com duas camas de solteiro — perfeito para colegas de viagem ou de trabalho.",
+      "features": [
+        "25 m²",
+        "2 camas solteiro",
+        "Frigobar"
+      ],
+      "images": [
+        {
+          "file": "room-details-superior-twin-01.webp",
+          "alt": "Superior Twin — foto 1",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-twin-02.webp",
+          "alt": "Superior Twin — foto 2",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-twin-03.webp",
+          "alt": "Superior Twin — foto 3",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-twin-04.webp",
+          "alt": "Superior Twin — foto 4",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-09.webp",
+          "alt": "Superior Twin — foto 5",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-twin-06.webp",
+          "alt": "Superior Twin — foto 6",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-casal-08.webp",
+          "alt": "Superior Twin — foto 7",
+          "width": 960,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "slug": "superior-triplo-casal",
+      "status": 200,
+      "title": "Superior Triplo Casal",
+      "source": "https://hoteldacosta.com.br/acomodacao/superior-triplo-casal/",
+      "description": "Aproximadamente 25 m² com janela e iluminação natural, combinando cama de casal e cama de solteiro — feito para famílias pequenas.",
+      "features": [
+        "25 m²",
+        "Casal + solteiro",
+        "Frigobar"
+      ],
+      "images": [
+        {
+          "file": "room-details-superior-triplo-casal-01.webp",
+          "alt": "Superior Triplo Casal — foto 1",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-triplo-casal-02.webp",
+          "alt": "Superior Triplo Casal — foto 2",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-triplo-casal-03.webp",
+          "alt": "Superior Triplo Casal — foto 3",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-09.webp",
+          "alt": "Superior Triplo Casal — foto 4",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-08.webp",
+          "alt": "Superior Triplo Casal — foto 5",
+          "width": 960,
+          "height": 1440
+        },
+        {
+          "file": "room-details-superior-triplo-casal-06.webp",
+          "alt": "Superior Triplo Casal — foto 6",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-triplo-casal-07.webp",
+          "alt": "Superior Triplo Casal — foto 7",
+          "width": 960,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "slug": "superior-triplo-solteiro",
+      "status": 200,
+      "title": "Superior Triplo Solteiro",
+      "source": "https://hoteldacosta.com.br/acomodacao/superior-triplo-solteiro/",
+      "description": "Aproximadamente 20 m² com janela e iluminação natural, com três camas de solteiro — a pedida para viagens entre amigos.",
+      "features": [
+        "20 m²",
+        "3 camas solteiro",
+        "Frigobar"
+      ],
+      "images": [
+        {
+          "file": "room-details-superior-triplo-solteiro-01.webp",
+          "alt": "Superior Triplo Solteiro — foto 1",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-triplo-solteiro-02.webp",
+          "alt": "Superior Triplo Solteiro — foto 2",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-triplo-solteiro-03.webp",
+          "alt": "Superior Triplo Solteiro — foto 3",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-triplo-solteiro-04.webp",
+          "alt": "Superior Triplo Solteiro — foto 4",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-casal-08.webp",
+          "alt": "Superior Triplo Solteiro — foto 5",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-triplo-solteiro-06.webp",
+          "alt": "Superior Triplo Solteiro — foto 6",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-09.webp",
+          "alt": "Superior Triplo Solteiro — foto 7",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-08.webp",
+          "alt": "Superior Triplo Solteiro — foto 8",
+          "width": 960,
+          "height": 1440
+        },
+        {
+          "file": "room-details-superior-triplo-solteiro-09.webp",
+          "alt": "Superior Triplo Solteiro — foto 9",
+          "width": 960,
+          "height": 640
+        }
+      ]
+    },
+    {
+      "slug": "superior-quadruplo",
+      "status": 200,
+      "title": "Superior Quádruplo",
+      "source": "https://hoteldacosta.com.br/acomodacao/superior-quadruplo/",
+      "description": "O maior dos Superiores: aproximadamente 30 m² com janela e iluminação natural, acomodando até quatro pessoas — em quatro camas de solteiro ou cama de casal com duas de solteiro.",
+      "features": [
+        "30 m²",
+        "Até 4 pessoas",
+        "Frigobar"
+      ],
+      "images": [
+        {
+          "file": "room-details-superior-quadruplo-01.webp",
+          "alt": "Superior Quádruplo — foto 1",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-quadruplo-02.webp",
+          "alt": "Superior Quádruplo — foto 2",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-quadruplo-03.webp",
+          "alt": "Superior Quádruplo — foto 3",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-quadruplo-04.webp",
+          "alt": "Superior Quádruplo — foto 4",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-superior-quadruplo-05.webp",
+          "alt": "Superior Quádruplo — foto 5",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-09.webp",
+          "alt": "Superior Quádruplo — foto 6",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-08.webp",
+          "alt": "Superior Quádruplo — foto 7",
+          "width": 960,
+          "height": 1440
+        },
+        {
+          "file": "room-details-superior-quadruplo-08.webp",
+          "alt": "Superior Quádruplo — foto 8",
+          "width": 960,
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "slug": "standard-casal",
+      "status": 200,
+      "title": "Standard Casal",
+      "source": "https://hoteldacosta.com.br/acomodacao/standard-casal/",
+      "description": "Compacto e funcional: 12 m² com iluminação natural, ideal para hospedagens curtas em que o quarto é só o ponto de partida.",
+      "features": [
+        "12 m²",
+        "Casal",
+        "Cofre"
+      ],
+      "images": [
+        {
+          "file": "room-details-standard-casal-01.webp",
+          "alt": "Standard Casal — foto 1",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-standard-casal-02.webp",
+          "alt": "Standard Casal — foto 2",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-standard-casal-03.webp",
+          "alt": "Standard Casal — foto 3",
+          "width": 960,
+          "height": 1440
+        },
+        {
+          "file": "room-details-standard-casal-04.webp",
+          "alt": "Standard Casal — foto 4",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-09.webp",
+          "alt": "Standard Casal — foto 5",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-standard-casal-06.webp",
+          "alt": "Standard Casal — foto 6",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-08.webp",
+          "alt": "Standard Casal — foto 7",
+          "width": 960,
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "slug": "standard-twin",
+      "status": 200,
+      "title": "Standard Twin",
+      "source": "https://hoteldacosta.com.br/acomodacao/standard-twin/",
+      "description": "Compacto e funcional: 12 m² com iluminação natural e duas camas de solteiro, ideal para hospedagens curtas.",
+      "features": [
+        "12 m²",
+        "2 camas solteiro",
+        "Cofre"
+      ],
+      "images": [
+        {
+          "file": "room-details-superior-twin-02.webp",
+          "alt": "Standard Twin — foto 1",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-standard-casal-06.webp",
+          "alt": "Standard Twin — foto 2",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-09.webp",
+          "alt": "Standard Twin — foto 3",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "file": "room-details-luxo-casal-08.webp",
+          "alt": "Standard Twin — foto 4",
+          "width": 960,
+          "height": 1440
+        }
+      ]
+    }
+  ]
+}

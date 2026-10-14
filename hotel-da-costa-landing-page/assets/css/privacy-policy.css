@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Marcellus";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/marcellus-regular-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/quicksand-latin.woff2") format("woff2");
+}
+body.hdc-lp-privacy-page {
+  --hdc-lp-color-background-page: #f6f1e8;
+  --hdc-lp-color-text-primary: #063769;
+  --hdc-lp-color-text-heading: #04264a;
+  --hdc-lp-color-focus: #063769;
+  --hdc-lp-font-display: "Marcellus", Georgia, serif;
+  --hdc-lp-font-body: "Quicksand", sans-serif;
+  --hdc-lp-font-size-title: 40px;
+  --hdc-lp-font-size-subtitle: 24px;
+  --hdc-lp-font-size-text: 18px;
+  --hdc-lp-section-padding: 40px;
+  --hdc-lp-space-paragraph: 20px;
+  --hdc-lp-space-heading: 40px;
+  --hdc-lp-width-container: 1280px;
+  --hdc-lp-width-document: 880px;
+  margin: 0;
+  background: var(--hdc-lp-color-background-page);
+  color: var(--hdc-lp-color-text-primary);
+  font-family: var(--hdc-lp-font-body);
+  font-size: var(--hdc-lp-font-size-text);
+  line-height: 1.7;
+}
+.hdc-lp-privacy, .hdc-lp-privacy * { box-sizing: border-box; text-wrap: pretty; }
+.hdc-lp-privacy { min-height: 100vh; padding: var(--hdc-lp-section-padding); }
+.hdc-lp-privacy__container { width: 100%; max-width: var(--hdc-lp-width-container); margin-inline: auto; }
+.hdc-lp-privacy__document { width: 100%; max-width: var(--hdc-lp-width-document); margin-inline: auto; }
+.hdc-lp-privacy h1, .hdc-lp-privacy h2, .hdc-lp-privacy h3 {
+  color: var(--hdc-lp-color-text-heading);
+  font-family: var(--hdc-lp-font-display);
+  font-weight: 400;
+  line-height: 1.3;
+  text-wrap: balance;
+}
+.hdc-lp-privacy h1 { font-size: var(--hdc-lp-font-size-title); margin: 0 0 var(--hdc-lp-space-heading); }
+.hdc-lp-privacy h2, .hdc-lp-privacy h3 { font-size: var(--hdc-lp-font-size-subtitle); margin: var(--hdc-lp-space-heading) 0 var(--hdc-lp-space-paragraph); }
+.hdc-lp-privacy p, .hdc-lp-privacy ul, .hdc-lp-privacy ol { font-size: var(--hdc-lp-font-size-text); margin: 0 0 var(--hdc-lp-space-paragraph); }
+.hdc-lp-privacy a { color: inherit; text-decoration: underline; overflow-wrap: anywhere; }
+.hdc-lp-privacy :focus-visible { outline: 2px solid var(--hdc-lp-color-focus); outline-offset: 4px; }
+.hdc-lp-privacy img { max-width: 100%; height: auto; }
+@media (max-width: 767px) {
+  body.hdc-lp-privacy-page {
+    --hdc-lp-font-size-title: 22px;
+    --hdc-lp-font-size-subtitle: 18px;
+    --hdc-lp-font-size-text: 14px;
+    --hdc-lp-section-padding: 20px;
+    --hdc-lp-space-paragraph: 16px;
+    --hdc-lp-space-heading: 28px;
+  }
+}
